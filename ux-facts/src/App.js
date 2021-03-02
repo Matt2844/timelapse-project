@@ -1,10 +1,17 @@
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import Home from './components/Home'
+import Facts from './components/Facts'
 import './App.css';
 
 function App () {
   return (
-    <section className="landing-page">
-      <img className="background-img" src="/images/lamp.jpeg" />
-    </section>
+    <div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/facts" component={Facts} />
+      </Switch>
+    </div>
   );
 }
 
