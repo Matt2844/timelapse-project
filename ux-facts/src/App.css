@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.landing-page {
+  text-align: center;
+  overflow: hidden;
+}
+
+.background-img { 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
